@@ -1,0 +1,133 @@
+*{
+    padding:0;
+    margin:0;
+}
+ol,ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Poppins' ;
+}
+
+/*======== navbar start ======== */
+.navbar-brand {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #4A4A4A;
+    transition:all linear .3s;
+}
+.navbar-brand:hover{
+    color:#289BDE;
+}
+.nav-link {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #777777;
+    margin-left:20px;
+    transition:all linear .3s;
+}
+.nav-link:hover{
+    color:#289BDE;
+}
+.btn-outline-success{
+    font-weight: 500;
+    font-size: 20px;
+    color:#289BDE;
+    border-color: #289BDE;
+    padding:5px 20px;
+    transition:all linear .3s;
+}
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #289BDE;
+    border-color: #289BDE;
+}
+/*======== banner start ======== */
+#banner{
+    margin-bottom: 50px;
+}
+.overlay{
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.486);
+    z-index: 999;
+}
+.banner-text{
+    text-align: center;
+    padding-top:182px;
+    padding-bottom: 182px;
+
+
+}
+.banner-text h1{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 85px;
+    text-align: center;
+    color: #FFFFFF;
+    padding:10px 120px;
+
+}
+.banner-text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #F4F4F4;
+    padding:0px 205px;
+    padding-bottom: 25px;
+}
+.banner-text a{
+    padding:10px 20px;
+    border-radius: 5px;
+    background: #289BDE;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.carousel-control-prev{
+    z-index: 99999;
+}
+.carousel-control-next{
+    z-index: 99999;
+}
+/*=======  discover part start =========*/
+.discover-text h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    text-align: center;
+    color: #1D1D1D;
+    padding:10px 230px;
+}
+.discover-text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #777777;
+    padding:0px 235px;
+}
