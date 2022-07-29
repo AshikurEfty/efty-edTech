@@ -111,6 +111,9 @@ body{
     z-index: 99999;
 }
 /*=======  discover part start =========*/
+#discover{
+    margin-bottom: 130px;
+}
 .discover-text h1{
     font-family: 'Poppins';
     font-style: normal;
@@ -130,4 +133,126 @@ body{
     text-align: center;
     color: #777777;
     padding:0px 235px;
+    margin-bottom: 50px;
+}
+/*=========== explore part start =============*/
+.explore-text h1{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    color: #1D1D1D;
+}
+.explore-text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #777777;
+}
+/*========== some part start ============*/
+.some-text h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    text-align: center;
+    color: #1D1D1D;
+}
+.some-text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #777777;
+    padding:0px 235px;
+}
+/*=========== Discover card start ==========*/
+.card-btn a{
+    font-family: 'Poppins';
+    padding: 13px 33px;
+    background:#289BDE;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius:5px;
+}
+/*======= asked text start ======= */
+#asked{
+    margin-top:80px;
+    margin-bottom: 130px;
+}
+.asked-text h1{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    text-align: center;
+}
+.asked-text p{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    padding:0px 235px;
+    margin-bottom:50px;
+}
+.accordion-button {
+    padding: 2rem 1.25rem;
+    font-weight: 600;
+}
+/*=============  trusted part ===========*/
+#trusted{
+    margin-bottom: 130px;
+}
+.trusted-text h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+/*========= footer start ==========*/
+#footer-main{
+    padding:130px 0px;
+    background: #161616;
+}
+.footer-text h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.footer-text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #E8E8E8;
+}
+.footer-text h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 126%;
+    color: #E8E8E8;
+    text-align: center;
+}
+.footer-icon{
+    text-align:center;
 }
