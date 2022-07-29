@@ -136,6 +136,15 @@ body{
     margin-bottom: 50px;
 }
 /*=========== explore part start =============*/
+#explore{
+    margin-bottom: 130px;
+}
+.explore-text-main{
+    padding-top:50px;
+}
+.explore-counter{
+    margin-bottom: 30px;
+}
 .explore-text h1{
     font-family: 'Poppins';
     font-weight: 600;
@@ -143,6 +152,7 @@ body{
     line-height: 60px;
     color: #1D1D1D;
 }
+
 .explore-text p{
     font-family: 'Poppins';
     font-style: normal;
@@ -151,6 +161,79 @@ body{
     line-height: 30px;
     color: #777777;
 }
+.explore-counter h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    text-align: center;
+    color: #1D1D1D;
+}
+.explore-counter p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #777777;
+    text-align: center;
+}
+.explore-button a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    background:#289BDE;
+    border-radius: 5px;
+    margin-top:10px;
+    margin-left: 10px;
+}
+/*============ ready part start =============*/
+#ready{
+    margin-bottom: 110px;
+}
+.ready-part{
+    background: #289BDE;
+}
+.ready-text h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.ready-text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #F4F4F4;
+}
+.ready-btn{
+    text-align: center;
+}
+.ready-btn a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    color: #289BDE;
+    padding:10px 20px;
+    background: #ffffff;
+    margin-left:150px;
+}
+
+
 /*========== some part start ============*/
 .some-text h1{
     font-family: 'Poppins';
@@ -255,4 +338,8 @@ body{
 }
 .footer-icon{
     text-align:center;
+}
+.footer-icon a{
+    color:#ffffff;
+    margin-left: 10px;
 }
