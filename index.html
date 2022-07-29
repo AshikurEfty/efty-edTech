@@ -11,6 +11,7 @@
     />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css">
     <script src="https://kit.fontawesome.com/0b2a739660.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -151,12 +152,16 @@
     <!----=============== Discover start =============== ----->
     <section>
       <div class="container">
-        <div class="discover-text">
-          <h1>Discover Our Popular Courses</h1>
-          <p>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout.
-          </p>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="discover-text">
+              <h1>Discover Our Popular Courses</h1>
+              <p>
+                It is a long established fact that a reader will be distracted by
+                the readable content of a page when looking at its layout.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -407,28 +412,6 @@
     </section>
     <!----=============== explore part end =============== ----->
 
-    <!----=============== ready part start =============== ----->
-    <section id="ready">
-      <div class="container">
-        <div class="ready-part p-5">
-          <div class="row">
-            <div class="col-lg-7">
-              <div class="ready-text">
-                <h1>Ready to join?</h1>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-              </div>
-            </div>
-            <div class="col-lg-5 m-auto">
-              <div class="ready-btn">
-                <a href="#">Register Now</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!----=============== ready part end =============== ----->
-
     <!----=============== some part start =============== ----->
     <section>
       <div class="container">
@@ -446,6 +429,50 @@
       </div>
     </section>
     <!----=============== some part End =============== ----->
+
+    <!----=============== ready part start =============== ----->
+    <section id="ready">
+      <div class="container">
+        <div class="ready-part p-5">
+          <div class="row">
+            <div class="col-lg-7">
+              <div class="ready-text">
+                <h1>Ready to join?</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+              </div>
+            </div>
+            <div class="col-lg-5 m-auto">
+              <div class="ready-btn">
+                                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Register Now
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        G.M.Ashikur Rahman Efty. I am a Mernstack Web developer
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----=============== ready part end =============== ----->
 
     <!----=============== asked start =============== ----->
     <section id="asked">
@@ -475,7 +502,7 @@
                       aria-expanded="true"
                       aria-controls="collapseOne"
                     >
-                      What other services are you compatible with?
+                    what are the difference between flexbox and grid?
                     </button>
                   </h2>
                   <div
@@ -485,13 +512,7 @@
                     data-bs-parent="#accordionExample"
                   >
                     <div class="accordion-body">
-                      There are many variations of passages of available, but
-                      the majority have suffered alteration in some form, by
-                      injected humour, or randomised words which don't look even
-                      slightly believable. If you are going to use a passage of
-                      Lorem Ipsum, you need to be sure there isn't anything
-                      embarrassing hidden in the middle of text. All the
-                      generators on the.
+                      Grid and flexbox. The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time
                     </div>
                   </div>
                 </div>
@@ -505,7 +526,7 @@
                       aria-expanded="false"
                       aria-controls="collapseTwo"
                     >
-                      I have a technical i need resolved, who do i email?
+                    what are the difference between bootstrap and tailwind?
                     </button>
                   </h2>
                   <div
@@ -515,15 +536,7 @@
                     data-bs-parent="#accordionExample"
                   >
                     <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong>
-                      It is hidden by default, until the collapse plugin adds
-                      the appropriate classes that we use to style each element.
-                      These classes control the overall appearance, as well as
-                      the showing and hiding via CSS transitions. You can modify
-                      any of this with custom CSS or overriding our default
-                      variables. It's also worth noting that just about any HTML
-                      can go within the <code>.accordion-body</code>, though the
-                      transition does limit overflow.
+                      Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness. Sites created using Bootstrap follow the generic pattern that makes them look identical.
                     </div>
                   </div>
                 </div>
@@ -537,7 +550,7 @@
                       aria-expanded="false"
                       aria-controls="collapseThree"
                     >
-                      What other services are you compatible with?
+                    what is css box model?
                     </button>
                   </h2>
                   <div
@@ -547,13 +560,7 @@
                     data-bs-parent="#accordionExample"
                   >
                     <div class="accordion-body">
-                      There are many variations of passages of available, but
-                      the majority have suffered alteration in some form, by
-                      injected humour, or randomised words which don't look even
-                      slightly believable. If you are going to use a passage of
-                      Lorem Ipsum, you need to be sure there isn't anything
-                      embarrassing hidden in the middle of text. All the
-                      generators on the.
+                      The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
                     </div>
                   </div>
                 </div>
@@ -567,7 +574,7 @@
                       aria-expanded="false"
                       aria-controls="collapseFour"
                     >
-                      What other services are you compatible with?
+                    What is a semantic tag in HTML?
                     </button>
                   </h2>
                   <div
@@ -577,15 +584,7 @@
                     data-bs-parent="#accordionExample"
                   >
                     <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong>
-                      It is hidden by default, until the collapse plugin adds
-                      the appropriate classes that we use to style each element.
-                      These classes control the overall appearance, as well as
-                      the showing and hiding via CSS transitions. You can modify
-                      any of this with custom CSS or overriding our default
-                      variables. It's also worth noting that just about any HTML
-                      can go within the <code>.accordion-body</code>, though the
-                      transition does limit overflow.
+                      Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way. Elements such as <header> , <footer> and <article> are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them.
                     </div>
                   </div>
                 </div>

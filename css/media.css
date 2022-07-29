@@ -1,0 +1,16 @@
+@media (max-width: 576px) {
+    .banner-text h1 {
+        font-size: 22px;
+        line-height: 32px;
+        padding: 1px 145px;
+    }
+    .banner-text p {
+        font-size: 13px;
+        line-height: 17px;
+        padding:0px 0px;
+    }
+    .asked-text p {
+        padding: 0px 0px;
+    }
+
+}

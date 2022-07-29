@@ -193,6 +193,28 @@ body{
     margin-top:10px;
     margin-left: 10px;
 }
+
+/*========== some part start ============*/
+.some-text h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    text-align: center;
+    color: #1D1D1D;
+}
+.some-text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #777777;
+    padding:0px 235px;
+    margin-bottom: 60px;
+}
 /*============ ready part start =============*/
 #ready{
     margin-bottom: 110px;
@@ -218,6 +240,7 @@ body{
 }
 .ready-btn{
     text-align: center;
+    margin-left: 140px;
 }
 .ready-btn a{
     font-family: 'Poppins';
@@ -231,29 +254,17 @@ body{
     padding:10px 20px;
     background: #ffffff;
     margin-left:150px;
+    
+}
+.btn-primary {
+    color: #289BDE;
+    background-color: #ffffff;
+    padding:10px 20px;
+    font-weight: 500;
+    font-size: 20px;
+    transition: all linear .3s;
 }
 
-
-/*========== some part start ============*/
-.some-text h1{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 45px;
-    line-height: 60px;
-    text-align: center;
-    color: #1D1D1D;
-}
-.some-text p{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    text-align: center;
-    color: #777777;
-    padding:0px 235px;
-}
 /*=========== Discover card start ==========*/
 .card-btn a{
     font-family: 'Poppins';
