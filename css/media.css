@@ -1,4 +1,4 @@
-@media (max-width: 576px) {
+@media (min-width: 375px) and (max-width:575px){
     .banner-text h1 {
         font-size: 22px;
         line-height: 32px;
@@ -9,8 +9,111 @@
         line-height: 17px;
         padding:0px 0px;
     }
+    .banner-text {
+        padding-top: 44px;
+    }
+    .banner-text h1 {
+        line-height: 23px;
+        padding: 1px 35px;
+    }
+    .discover-text h1 {
+        padding: inherit;
+    }
+    .discover-text p {
+        padding: inherit;
+    }
     .asked-text p {
         padding: 0px 0px;
+    }
+    .some-text p {
+        padding: inherit;
+    }
+    #trusted {
+        display: none;
+    }
+    .ready-btn {
+        margin-left: 0px;
+    }
+    .explore-button a {
+        margin-left: 111px;
+    }
+    .btn-outline-success {
+        margin-left: 184px;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width:767.98px) {
+    .banner-text h1 {
+        font-size: 22px;
+        line-height: 32px;
+        padding: 1px 145px;
+    }
+    .banner-text p {
+        font-size: 13px;
+        line-height: 17px;
+        padding:0px 0px;
+    }
+    .banner-text {
+        padding-top: 120px;
+    }
+    .asked-text p {
+        padding: 0px 0px;
+    }
+    .discover-text h1 {
+        padding: inherit;
+    }
+    .discover-text p {
+        padding: inherit;
+    }
+    .explore-button a {
+        margin-left: 165px;
+    }
+    .some-text p {
+        padding: inherit;
+    }
+    #trusted {
+        display: none;
+    }
+    .ready-btn {
+        margin-left: 0px;
+    }
+    .btn-outline-success {
+        margin-left: 184px;
+    }
+
+}
+@media (min-width: 768px) and (max-width:991.98px){
+    .discover-text h1 {
+        padding: inherit;
+    }
+    .discover-text p {
+        padding: inherit;
+    }
+    .explore-button a {
+        margin-left: 273px;
+    }
+    .some-text p {
+        padding: inherit;
+    }
+    .asked-text p {
+        padding: 0px 0px;
+    }
+    .banner-text h1 {
+        padding: 0px 0px;
+        line-height: 60px;
+    }
+    .banner-text p {
+        padding: 0px 82px;
+    }
+    #trusted {
+        display: none;
+    }
+    .ready-btn {
+        margin-left: 0px;
+    }
+    .btn-outline-success {
+        margin-left: 274px;
     }
 
 }
